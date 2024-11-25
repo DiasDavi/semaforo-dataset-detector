@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['semaforo']
+
+roboflow:
+  workspace: test-crhra
+  project: semaforo-k8ofk
+  version: 5
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/test-crhra/semaforo-k8ofk/dataset/5
